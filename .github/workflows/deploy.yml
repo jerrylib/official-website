@@ -27,4 +27,4 @@ jobs:
           publish_dir: ./dist
           user_name: jerrylib
           user_email: js_bin@163.com
-          publish_branch: master
+          publish_branch: gh-pages
