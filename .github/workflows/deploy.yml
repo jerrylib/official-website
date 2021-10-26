@@ -24,7 +24,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: jerrylib/official-website.github.io
           publish_dir: ./build
           user_name: jerrylib
           user_email: js_bin@163.com
