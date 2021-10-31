@@ -103,7 +103,7 @@
     </div>
     <!-- 为什么选择我们 -->
     <div id="whyChooseUs" class="conatiner-fuild">
-      <div class="container">
+      <div class="container" style="width:100%">
         <div class="whyChooseUs-title text-center">
           <p>为什么选择我们的服务</p>
           <p>THE REASON TO CHOOSING US</p>
@@ -143,28 +143,31 @@ export default {
     return {
       swiperList: [
         {
-          img: require("@/assets/img/banner1.png"),
+          img: require("@/assets/img/banner1.jpg"),
           path: "",
-          title: '您身边的IT专家1',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+          title: '师资力量',
+          content: '',
         },
         {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
-          title: '您身边的IT专家2',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
-        },
-        {
-          img: require("@/assets/img/banner1.png"),
+          title: '办公环境',
+          content: '',
+        },{
+          img: require("@/assets/img/banner3.jpg"),
           path: "",
-          title: '您身边的IT专家3',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
-        },
-        {
-          img: require("@/assets/img/banner2.jpg"),
+          title: '学员风采',
+          content: '',
+        },{
+          img: require("@/assets/img/banner4.jpg"),
           path: "",
-          title: '您身边的IT专家4',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+          title: '驾校制度',
+          content: '',
+        },{
+          img: require("@/assets/img/banner5.jpg"),
+          path: "",
+          title: '监督台',
+          content: '',
         }
       ],
       customerList: [

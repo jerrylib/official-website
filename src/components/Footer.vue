@@ -3,17 +3,21 @@
     <div class="logo">
       <img src="@/assets/img/logo_white.png" alt="logo图">
     </div>
-    <p class="title">公司企业网站模板</p>
-    <p class="address_tel_fax">
-      <span>地址：公司地址公司地址公司地址公司地址</span>
-      <span>Tel：888-888-888</span>
-      <span>Fax：8888-88888888</span>
-    </p>
-    <p class="email_wx">
+    <!-- <p class="title">公司企业网站模板</p> -->
+    <div class="address_tel_fax">
+      <span>地址：宁德市福安市城北街道棠兴路300号3楼玲珑驾校（凯兴酒店对面）</span>
+      <div>
+        <span>Tel：13509588803</span>
+        <span>Tel：0593-6668337</span>
+        <span>Tel：18060323611</span>
+      </div>
+      <!-- <span>Fax：8888-88888888</span> -->
+    </div>
+    <!-- <p class="email_wx">
       <span>邮箱：liyunkun_11@163.com</span>
       <span>公司微信号：ilyk_gg</span>
-    </p>
-    <p class="copy">Copyright &copy; 2018 - 2019 公司名称公司名称</p>
+    </p> -->
+    <p class="copy">Copyright &copy; 2018 - 2019 福安市玲珑摩托车培训有限公司</p>
   </div>
 </template>
 <script>
@@ -54,7 +58,7 @@ export default {
 .copy {
   color: #d3d3d3;
   font-size: 14px;
-  margin: 50px 0 10px;
+  margin: 10px 0 10px;
 }
 @media screen and (max-width: 997px) {
   .title {

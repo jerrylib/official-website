@@ -2,7 +2,7 @@
   <!-- 头部整体盒子 -->
   <div id="header" class="container-fuild">
     <!-- 头部顶部 -->
-    <div class="header-top container-fuild hidden-xs">
+    <!-- <div class="header-top container-fuild hidden-xs">
       <div class="container">
         <div class="server pull-left">
           <span class="glyphicon glyphicon-earphone"></span>888-888-888
@@ -14,7 +14,7 @@
           <span class="glyphicon glyphicon-hand-left"></span>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- 电脑导航 -->
     <div class="header-nav container hidden-xs">
       <!-- 导航logo -->
@@ -88,24 +88,24 @@ export default {
       menuClass: "glyphicon glyphicon-menu-down",
       navList: [
         {
-          name: "首页1",
+          name: "首页",
           path: "/",
           children: []
         },
-        {
-          name: "软件产品",
-          path: "/software",
-          children: [
-            {
-              name: "智能小镇管理系统",
-              path: "/software/smartTown"
-            },
-            {
-              name: "大数据管理系统",
-              path: "/software/bigData"
-            }
-          ]
-        },
+        // {
+        //   name: "软件产品",
+        //   path: "/software",
+        //   children: [
+        //     {
+        //       name: "智能小镇管理系统",
+        //       path: "/software/smartTown"
+        //     },
+        //     {
+        //       name: "大数据管理系统",
+        //       path: "/software/bigData"
+        //     }
+        //   ]
+        // },
         {
           name: "相关服务",
           path: "/service",
@@ -121,11 +121,11 @@ export default {
           path: "/companyintroduction",
           children: []
         },
-        {
-          name: "工作机会",
-          path: "/jobchance",
-          children: []
-        },
+        // {
+        //   name: "工作机会",
+        //   path: "/jobchance",
+        //   children: []
+        // },
         {
           name: "联系我们",
           path: "/contactus",
