@@ -60,14 +60,16 @@ export default new Router({
           meta: {
             title: '相关服务'
           }
-        }, {
-          path: '/newsinformation',
-          name: 'newsinformation',
-          component: resolve => require(['@/view/NewsInformation'], resolve),
-          meta: {
-            title: '新闻动态'
-          }
-        }, {
+        },
+        // {
+        //   path: '/newsinformation',
+        //   name: 'newsinformation',
+        //   component: resolve => require(['@/view/NewsInformation'], resolve),
+        //   meta: {
+        //     title: '新闻动态'
+        //   }
+        // },
+        {
           path: '/companyintroduction',
           name: 'companyintroduction',
           component: resolve => require(['@/view/CompanyIntroduction'], resolve),

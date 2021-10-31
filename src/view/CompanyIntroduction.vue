@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row CompanyIntroduction-container">
                 <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
-                    <img class="img-responsive center-block" src="@/assets/img/about_img.png">
+                    <img class="img-responsive center-block" src="@/assets/img/banner6.jpg">
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6">
                     <h3>网站建设文化传播有限公司</h3>

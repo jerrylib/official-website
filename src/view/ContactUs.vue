@@ -21,19 +21,19 @@
               <div class="form-group">
                 <label for="tel" class="col-sm-2 control-label">电话1</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="tel" value="0593-6668337" disabled>
+                  <input type="text" class="form-control" id="tel1" value="0593-6668337" disabled>
                 </div>
               </div>
                <div class="form-group">
                 <label for="tel" class="col-sm-2 control-label">电话2</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="tel" value="13509588803" disabled>
+                  <input type="text" class="form-control" id="tel2" value="13509588803" disabled>
                 </div>
               </div>
                <div class="form-group">
                 <label for="tel" class="col-sm-2 control-label">电话3</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="tel" value="18060323611" disabled>
+                  <input type="text" class="form-control" id="tel3" value="18060323611" disabled>
                 </div>
               </div>
             </form>

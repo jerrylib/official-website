@@ -111,11 +111,11 @@ export default {
           path: "/service",
           children: []
         },
-        {
-          name: "新闻动态",
-          path: "/newsinformation",
-          children: []
-        },
+        // {
+        //   name: "新闻动态",
+        //   path: "/newsinformation",
+        //   children: []
+        // },
         {
           name: "公司介绍",
           path: "/companyintroduction",
