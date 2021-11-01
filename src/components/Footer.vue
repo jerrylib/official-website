@@ -1,11 +1,11 @@
 <template>
   <div id="footer" class="container-fluid">
-    <div class="logo">
-      <img src="@/assets/img/logo_white.png" alt="logo图">
-    </div>
+    <div class="logo"></div>
     <!-- <p class="title">公司企业网站模板</p> -->
     <div class="address_tel_fax">
-      <span>地址：宁德市福安市城北街道棠兴路300号3楼玲珑驾校（凯兴酒店对面）</span>
+      <span
+        >地址：宁德市福安市城北街道棠兴路300号3楼玲珑驾校（凯兴酒店对面）</span
+      >
       <div>
         <span>Tel：13509588803</span>
         <span>Tel：0593-6668337</span>
@@ -17,15 +17,20 @@
       <span>邮箱：liyunkun_11@163.com</span>
       <span>公司微信号：ilyk_gg</span>
     </p> -->
-    <p class="copy">Copyright &copy; 2018 - 2019 福安市玲珑摩托车培训有限公司</p>
+    <p class="copy">
+      Copyright &copy; {{ year - 1 }} -
+      {{ year + 1 }} 福安市玲珑摩托车培训有限公司
+    </p>
   </div>
 </template>
 <script>
 export default {
   name: "Footer",
   data() {
-    return {};
-  }
+    return {
+      year: new Date().getFullYear(),
+    };
+  },
 };
 </script>
 <style scoped>
@@ -68,13 +73,12 @@ export default {
     font-size: 12px;
   }
   .email_wx {
-
-  font-size: 12px;
-}
-.copy {
-  font-size: 12px;
-  margin: 30px 0 10px;
-}
+    font-size: 12px;
+  }
+  .copy {
+    font-size: 12px;
+    margin: 30px 0 10px;
+  }
 }
 </style>
 
