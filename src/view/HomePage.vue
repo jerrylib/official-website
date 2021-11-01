@@ -111,28 +111,23 @@ export default {
         {
           img: require("@/assets/img/banner1.jpg"),
           path: "",
-          title: '师资力量',
           content: '',
         },
         {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
-          title: '办公环境',
           content: '',
         },{
           img: require("@/assets/img/banner3.jpg"),
           path: "",
-          title: '学员风采',
           content: '',
         },{
           img: require("@/assets/img/banner4.jpg"),
           path: "",
-          title: '驾校制度',
           content: '',
         },{
           img: require("@/assets/img/banner5.jpg"),
           path: "",
-          title: '监督台',
           content: '',
         }
       ],
@@ -326,6 +321,7 @@ export default {
   position: relative;
 }
 #swiper .banner-swiper .swiper-slide-title {
+  display: none;
   position: absolute;
   top: 0;
   left: 0;

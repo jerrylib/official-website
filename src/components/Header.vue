@@ -153,7 +153,7 @@ export default {
 <style scoped>
 /* 顶部 */
 #header {
-  background: #f4f4f4;
+  background: #fff;
   transition: all ease 0.6s;
 }
 #header .header-top {
@@ -180,8 +180,8 @@ export default {
 }
 /* 导航栏logo图片 */
 #header .header-nav .header-nav-logo img {
-  width: 95px;
-  height: 45px;
+  width: 195px;
+  height: 100px;
   position: absolute;
   top: 0;
   left: 0;
