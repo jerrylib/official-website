@@ -85,6 +85,18 @@ export default {
           img: require("@/assets/img/banner5.jpg"),
           path: "",
           content: '',
+        },{
+          img: require("@/assets/img/banner7.jpg"),
+          path: "",
+          content: '',
+        },{
+          img: require("@/assets/img/banner8.jpg"),
+          path: "",
+          content: '',
+        },{
+          img: require("@/assets/img/banner9.jpg"),
+          path: "",
+          content: '',
         }
       ],
       customerList: [
