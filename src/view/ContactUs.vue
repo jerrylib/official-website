@@ -1,39 +1,45 @@
 <template>
   <div id="ContactUs">
-    <div class="banner container-fuild text-center">联系我们</div>
+    <div class="banner container-fuild text-center"></div>
     <div class="container">
       <div class="container-fuild ContactUs-container">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-6">
             <form class="form-horizontal" role="form">
               <div class="form-group">
-                <label for="name" class="col-sm-2 control-label">公司名称</label>
-                <div class="col-sm-10 col-xs-12">
-                  <input type="text" class="form-control" id="name" value="福安市玲珑摩托车培训有限公司" disabled>
+                <label for="name" class="col-sm-3 control-label"
+                  >公司名称：</label
+                >
+                <div class="col-sm-9 col-xs-12">
+                  <h5>福安市玲珑摩托车培训有限公司</h5>
                 </div>
               </div>
               <div class="form-group">
-                <label for="email" class="col-sm-2 control-label">地址</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="email" value="宁德市福安市城北街道棠兴路300号3楼玲珑驾校（凯兴酒店对面）" disabled>
+                <label for="email" class="col-sm-3 control-label">地址：</label>
+                <div class="col-sm-9 col-xs-12">
+                  <h5>
+                    宁德市福安市城北街道棠兴路300号3楼玲珑驾校（凯兴酒店对面）
+                  </h5>
                 </div>
               </div>
               <div class="form-group">
-                <label for="tel" class="col-sm-2 control-label">电话1</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="tel1" value="0593-6668337" disabled>
+                <label for="tel" class="col-sm-3 control-label">座机：</label>
+                <div class="col-sm-9 col-xs-12">
+                  <h5>0593-6668337</h5>
                 </div>
               </div>
-               <div class="form-group">
-                <label for="tel" class="col-sm-2 control-label">电话2</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="tel2" value="13509588803" disabled>
+              <div class="form-group">
+                <label for="tel" class="col-sm-3 control-label"
+                  >联系方式：</label
+                >
+                <div class="col-sm-9 col-xs-12">
+                  <h5>13509588803</h5>
                 </div>
               </div>
-               <div class="form-group">
-                <label for="tel" class="col-sm-2 control-label">电话3</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="tel3" value="18060323611" disabled>
+              <div class="form-group">
+                <label for="tel" class="col-sm-3 control-label"></label>
+                <div class="col-sm-9 col-xs-12">
+                  <h5>18060323611</h5>
                 </div>
               </div>
             </form>
@@ -47,7 +53,7 @@
   </div>
 </template>
 <script>
-import { WOW } from 'wowjs'
+import { WOW } from "wowjs";
 import BMap from "BMap";
 export default {
   name: "ContactUs",
@@ -56,7 +62,7 @@ export default {
   },
   mounted() {
     var map = new BMap.Map("map"); // 创建地图实例
-    var point = new BMap.Point(119.666608,27.092534); // 创建点坐标
+    var point = new BMap.Point(119.666608, 27.092534); // 创建点坐标
     map.centerAndZoom(point, 18); // 初始化地图，设置中心点坐标和地图级别
     map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
     var marker = new BMap.Marker(point); // 创建标注
@@ -64,16 +70,13 @@ export default {
     var opts = {
       width: 50, // 信息窗口宽度
       height: 10, // 信息窗口高度
-      title: "城北街道棠兴路300号3楼" // 信息窗口标题
+      title: "城北街道棠兴路300号3楼", // 信息窗口标题
     };
-    var infoWindow = new BMap.InfoWindow(
-      "福安市玲珑摩托车培训有限公司",
-      opts
-    ); // 创建信息窗口对象
+    var infoWindow = new BMap.InfoWindow("福安市玲珑摩托车培训有限公司", opts); // 创建信息窗口对象
     map.openInfoWindow(infoWindow, map.getCenter()); // 打开信息窗口
     var wow = new WOW();
     wow.init();
-  }
+  },
 };
 </script>
 <style scoped>

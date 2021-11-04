@@ -1,6 +1,6 @@
 <template>
     <div id="CompanyIntroduction">
-        <div class="banner container-fuild text-center">关于我们</div>
+        <div class="banner container-fuild text-center"></div>
         <div class="container">
             <div class="row CompanyIntroduction-container">
                 <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
