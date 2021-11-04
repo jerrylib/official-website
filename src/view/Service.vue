@@ -33,23 +33,23 @@ export default {
             serviceList: [
                 {
                     id: 'section-1',
-                    title: '软件定制开发',
-                    eng_title: 'Customize App',
+                    title: 'D证培训(三轮摩托车)',
+                    eng_title: '培训获得D证',
                     img: require('@/assets/img/service1.jpg')
                 },{
                     id: 'section-2',
-                    title: 'IT外包服务',
-                    eng_title: 'Outsourcing',
+                    title: 'E证培训(二轮摩托车)',
+                    eng_title: '培训获得E证',
                     img: require('@/assets/img/service2.jpg')
                 },{
                     id: 'section-3',
-                    title: '网上商城建设',
-                    eng_title: 'eCommerce Site',
+                    title: '考试预约报名服务',
+                    eng_title: '整理资料，线上报名',
                     img: require('@/assets/img/service3.jpg')
                 },{
                     id: 'section-4',
-                    title: 'iOS应用定制开发',
-                    eng_title: 'iOS App Dev',
+                    title: '违章代办服务',
+                    eng_title: '代办违章，代缴罚款',
                     img: require('@/assets/img/service4.jpg')
                 }
             ]

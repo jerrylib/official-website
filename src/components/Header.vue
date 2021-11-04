@@ -121,11 +121,11 @@ export default {
           path: "/companyintroduction",
           children: []
         },
-        // {
-        //   name: "工作机会",
-        //   path: "/jobchance",
-        //   children: []
-        // },
+        {
+          name: "考试章程",
+          path: "/rules",
+          children: []
+        },
         {
           name: "联系我们",
           path: "/contactus",

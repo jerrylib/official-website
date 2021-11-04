@@ -77,14 +77,14 @@ export default new Router({
             title: '公司介绍'
           }
         },
-        // {
-        //   path: '/jobchance',
-        //   name: 'jobchance',
-        //   component: resolve => require(['@/view/JobChance'], resolve),
-        //   meta: {
-        //     title: '工作机会'
-        //   }
-        // },
+        {
+          path: '/rules',
+          name: 'rules',
+          component: resolve => require(['@/view/Rules'], resolve),
+          meta: {
+            title: '考试流程'
+          }
+        },
         {
           path: '/contactus',
           name: 'contactus',
