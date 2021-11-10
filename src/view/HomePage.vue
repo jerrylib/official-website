@@ -191,8 +191,8 @@ export default {
 
 /* 轮播图 */
 #swiper {
-  height: 800px;
-  width: 1200px;
+  height: 65vh;
+  width: 100vh;
   margin: 0 auto;
 }
 #swiper .banner-swiper {
@@ -347,7 +347,8 @@ export default {
 /* 媒体查询（手机） */
 @media screen and (max-width: 768px) {
   #swiper {
-    height: 200px;
+    width: auto;
+    height: 35vh;
   }
   #bigData {
     padding: 30px;
@@ -434,7 +435,8 @@ export default {
 /* 媒体查询（平板） */
 @media screen and (min-width: 768px) and (max-width: 996px) {
   #swiper {
-    height: 400px;
+    height: 45vh;
+    width: 70vh;
   }
   #bigData {
     padding: 60px;
