@@ -84,7 +84,7 @@ export default {
   data() {
     return {
       navIndex: sessionStorage.getItem('navIndex') ? sessionStorage.getItem('navIndex') : 0,
-      menuName: "首页1",
+      menuName: "首页",
       menuClass: "glyphicon glyphicon-menu-down",
       navList: [
         {
